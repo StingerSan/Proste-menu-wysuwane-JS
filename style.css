@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    min-height: 150vh;
+}
+
+.arrow {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    font-size: 35px;
+    transition: .4s linear;
+}
+
+nav {
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    height: 300px;
+    bottom: -280px;
+    transition: .4s linear;
+}
+
+p {
+    margin: 20px 50px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+nav.active {
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    height: 300px;
+    bottom: 0px;
+}
+
+.arrow.active {
+    position: fixed;
+    right: 10px;
+    bottom: 300px;
+    font-size: 35px;
+    transform: rotate(-180deg);
+}
